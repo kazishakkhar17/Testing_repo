@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-banner {
+    background-color: #C03BC4!important;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.top-banner a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo img {
+    height: 24px;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.header-icons a {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f5b3c7, #f5d4b3);
+    flex-grow: 1; /* Makes hero section take available space */
+}
+
+.hero-image {
+    width: 40%;
+    margin-right: 40px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #d83b87;
+    color: white;
+    font-size: 12px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .primary-button {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-buttons a {
+    color: #0078d4;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: flex; 
+    justify-content: center; 
+   padding: 20px; 
+   background-color:#f7f7f7; 
+   border-top :1px solid #e0e0e0; 
+   flex-shrink :0; /* Prevents bottom nav from shrinking */
+}
+
+.bottom-item {
+   text-align:center; 
+   margin :0 20px; 
+}
+
+.bottom-item .icon { 
+   font-size :30px; 
+   display:block; 
+   margin-bottom :5px; 
+}
+
+.bottom-item a { 
+   color:#0078d4; 
+   text-decoration:none; 
+}
